@@ -58,8 +58,8 @@
     "web-component-tester": "^4.0.0"
   },
   "scripts": {
-    "test": "gulp test:local",
-    "start": "gulp serve"
+   "start": "node serve.js",
+   "postinstall": "bower install && gulp"
   },
   "engines": {
     "node": "5.6.0"
