@@ -29,6 +29,7 @@
     "web-component-tester": "^4.0.0"
   },
   "dependencies": {
+    "bower": "^1.7.7",
     "gulp": "^3.8.5"
   },
   "scripts": {
