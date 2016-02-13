@@ -60,7 +60,7 @@
   "scripts": {
     "test": "gulp test:local",
     "start": "gulp serve",
-    "postinstall": "gulp default"
+    "postinstall": "bower install && gulp default"
   },
   "engines": {
     "node": ">=0.10.0"
