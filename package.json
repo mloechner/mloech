@@ -59,8 +59,7 @@
   },
   "scripts": {
     "test": "gulp test:local",
-    "start": "gulp serve",
-    "postinstall": "bower install && gulp default"
+    "start": "gulp serve"
   },
   "engines": {
     "node": "5.6.0"
